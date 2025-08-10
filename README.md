@@ -16,7 +16,7 @@ Make sure your system has the following installed before deploying:
 - **Git** (optional, for repository cloning)
 
 
-##  Application Description
+# Application Description
 
 **This app:**
 
@@ -29,7 +29,7 @@ Make sure your system has the following installed before deploying:
 - Both services are linked together using a Docker network.
 
 
-## Network and Volume Setup
+# Network and Volume Setup
 
 **Network:**
 
@@ -40,7 +40,7 @@ Make sure your system has the following installed before deploying:
 - To ensure that the counter value is retained when containers are restarted, a named Docker volume called `redis-data` is used to store Redis data.
 
 
-## Container Configuration:
+# Container Configuration:
 
 **Flask App Container:**
 
@@ -58,13 +58,13 @@ Make sure your system has the following installed before deploying:
 - The `redis-data` volume contains the data.
 
 
-## Container List:
+# Container List:
 
 - " flask-app " role is  Launches the web application Flask redis      
 - The "Redis" is key-value database is run. 
 
 
-## Instructions:  
+# Instructions:  
 
 First, Make scripts executable:
 
