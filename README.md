@@ -68,19 +68,19 @@ Make sure your system has the following installed before deploying:
 
 - First, Make scripts executable:
 
-**chmod +x *.sh** 
+    **chmod +x .sh**
 
 run in terminal.
 
 - The application should be prepared
 
-**./prepare-app.sh**
+    **./prepare-app.sh**
 
 This script creates the necessary volumes and builds the Docker image.
 
 - Launch the application by executing
 
-**./start-app.sh**
+    **./start-app.sh**
 
 All containers are started in the background using this script.
 
@@ -90,7 +90,7 @@ All containers that are currently executing are stopped by this script without b
 
 - Remove the application by executing
 
-**./remove-app.sh**
+    **./remove-app.sh**
 
 This script eliminates all app-related volumes, networks, and containers.
 
@@ -98,7 +98,7 @@ This script eliminates all app-related volumes, networks, and containers.
 
 After it is finished, launch your browser and go to:
 
-**http://localhost:5000**
+   **http://localhost:5000**
 
 A counter that rises with each page refresh will be visible to you.
 
