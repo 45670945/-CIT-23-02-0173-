@@ -94,7 +94,7 @@ All containers that are currently executing are stopped by this script without b
 
 This script eliminates all app-related volumes, networks, and containers.
 
-**Getting to the App**
+- **Getting to the App**
 
 After it is finished, launch your browser and go to:
 
