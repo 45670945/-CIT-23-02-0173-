@@ -60,36 +60,42 @@ Make sure your system has the following installed before deploying:
 
 # Container List:
 
-- " flask-app " role is  Launches the web application Flask redis      
-- The "Redis" is key-value database is run. 
+- `flask-app`role is  Launches the web application Flask redis      
+- The `Redis` is key-value database is run. 
 
 
 # Instructions:  
 
-First, Make scripts executable:
+- First, Make scripts executable:
 
-**chmod +x *.sh** run in terminal.
+**chmod +x *.sh** 
 
-The application should be prepared
+run in terminal.
+
+- The application should be prepared
+
 **./prepare-app.sh**
 
 This script creates the necessary volumes and builds the Docker image.
 
-Launch the application by executing
+- Launch the application by executing
+
 **./start-app.sh**
 
 All containers are started in the background using this script.
 
- Use **./stop-app.sh** to pause the application.
+- Use **./stop-app.sh** to pause the application.
 
 All containers that are currently executing are stopped by this script without being deleted.
 
- Remove the application by executing
+- Remove the application by executing
+
 **./remove-app.sh**
 
 This script eliminates all app-related volumes, networks, and containers.
 
 **Getting to the App**
+
 After it is finished, launch your browser and go to:
 
 **http://localhost:5000**
